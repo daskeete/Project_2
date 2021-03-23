@@ -10,7 +10,7 @@ As you can see from the graph below models 1 through 12 had the highest AUCs in 
 
 ### Finally, provide your ROC plots and interpret them.
 
-![LR_AUC](lr_auc.PNG)
+![LR_AUC](lr_auc.png)
 
 ### How effective is your penalized logistic regression model at predicting each of the five wealth outcomes.
 
