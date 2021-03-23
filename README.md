@@ -29,6 +29,7 @@ I found this odd because wealth class 3 possess the most observations compared t
 
 ### Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
 
+![importance](last_rf_fit.png)
 
 ### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target.
 
