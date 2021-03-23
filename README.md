@@ -9,6 +9,8 @@ As you can see from the graph below models 1 through 12 had the highest AUCs in 
 
 
 ### Finally, provide your ROC plots and interpret them.
+The model is very good at predicting wealth outcomes of 1 and 5. When it comes to predicting wealth outcomes of 2 and 4 it isn't terrible but there is much room for improvement. Finally the model is very bad at predicting wealth outcomes of 3.
+I found this odd because wealth class 3 possess the most observations compared to the other wealth classes. Therefore it might be that the variables used to predict wealth outcome 3 do not capture enough dimensionality required to make an accurate prediction for this wealth class.
 
 ![LR_AUC](lr_auc.png)
 
