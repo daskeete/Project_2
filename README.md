@@ -1,16 +1,12 @@
 # Project Cameroon
 
 
-### Using the R script provided, split and sample your DHS persons data and evaluate the AUC - ROC values you produce. Which "top_model" performed the best (had the largest AUC)?
+### Using the R script provided, split and sample your DHS persons data and evaluate the AUC - ROC values you produce. Which "top_model" performed the best (had the largest AUC)? Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? Provide justification for your selected penalty value? 
 
 As you can see from the graph below models 1 through 12 had the highest AUCs in the range 0.652 - 0.650. I chose model 11 because it has a higher penalty value along with a high AUC. Any of the values in this range could be used since the differences are so minute. Technically the model with the highest AUC is model 1 but the penalty is extremely high which would reduce the importance of variables way too much in exchange for a marginal increase in the AUC.
 
 ![Penalized_Top_Todels](top_models.PNG)
 
-### Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors?
-
-
-### Provide justification for your selected penalty value? 
 
 ### Finally, provide your ROC plots and interpret them.
 
