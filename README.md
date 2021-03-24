@@ -49,28 +49,31 @@ When compared to the penalized logistic regression, the performance of the two m
 
 ### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. Apply the linear classifier to the feature columns and determine the accuracy, AUC and other evaluative metrics towards each of the different wealth outcomes. Then continue with your linear classifier adding the derived feature columns you have selected in order to extend capturing combinations of correlations (instead of learning on single model weights for each outcome). Again produce your ROC curves and interpret the results.
 
+
+The accuracy for the logistic regression is much better for predicting every wealth class when setting one wealth class to 3 others so that there are only 2 unique classes. The most notable increase in accuracy is for wealth class 3. 
+
 ### Results for logistic regression wealth class 5 and ROC
 ![5tensor_flow_accuracy](tensor_flow_logistic.PNG)
 ![5tensorflow_logistic_roc](tensorflow_logistic_roc1.png)
 
 ### Results for logistic regression wealth class 4 and ROC
-![4_accur](4_accur.PNG)
-![4roc](4roc.png)
+![4_accur](4ACCUR.PNG)
+![4roc](4ROC.png)
 
 
 ### Results for logistic regression wealth class 3 and ROC
-![3_accur](3_accur.PNG)
-![3roc](3roc.png)
+![3_accur](3ACCUR.PNG)
+![3roc](3ROC.png)
 
 
 ### Results for logistic regression wealth class 2 and ROC
-![2_accur](2_accur.PNG)
-![2roc](2roc.png)
+![2_accur](2ACCUR.PNG)
+![2roc](2ROC.png)
 
 
 ### Results for logistic regression wealth class 1 and ROC
-![1_accur](1_accur.PNG)
-![1roc](1roc.png)
+![1_accur](1ACCUR.PNG)
+![1roc](1ROC.png)
 
 
 
