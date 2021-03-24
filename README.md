@@ -87,6 +87,8 @@ At first glance it seems that the accuracy for the logistic regression is much b
 
 ### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
 
+The boosted trees model achieved an AUC of 0.748843, which means it did better than random chance as well as all the other models. However 0.74 is still very far from 1 so room for improvement is there.
+
 ![rf_accur](RFACCUR.PNG)
 ![rfroc](RFROC.png)
 ![rfprob](RFPROBS.png)
@@ -98,6 +100,9 @@ At first glance it seems that the accuracy for the logistic regression is much b
 
 
 ### Analyze all four models. According to the evaluation metrics, which model produced the best results? 
+
 Going off of the AUC we see that the gradient boosting decision trees produced the best result with an AUC of 0.74 which is about 0.09 higher than the penalized logistic regression model.
 
 ### Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
+
+
