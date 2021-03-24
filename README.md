@@ -26,6 +26,10 @@ I found this odd because wealth class 3 possess the most observations compared t
 
 ![RF_RES](rf_res.png)
 
+
+#### Random Forest ROC Graphs
+
+
 ![RF_AUC](rf_auc.png)
 
 
