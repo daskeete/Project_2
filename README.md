@@ -55,22 +55,22 @@ When compared to the penalized logistic regression, the performance of the two m
 ![5tensorflow_logistic_roc](tensorflow_logistic_roc1.png)
 
 ### Results for logistic regression wealth class 4 and ROC
-![4_accur](4_accur.png)
+![4_accur](4_accur.PNG)
 ![4roc](4roc.png)
 
 
 ### Results for logistic regression wealth class 3 and ROC
-![3_accur](3_accur.png)
+![3_accur](3_accur.PNG)
 ![3roc](3roc.png)
 
 
 ### Results for logistic regression wealth class 2 and ROC
-![2_accur](2_accur.png)
+![2_accur](2_accur.PNG)
 ![2roc](2roc.png)
 
 
 ### Results for logistic regression wealth class 1 and ROC
-![1_accur](1_accur.png)
+![1_accur](1_accur.PNG)
 ![1roc](1roc.png)
 
 
