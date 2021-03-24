@@ -8,6 +8,11 @@ As you can see from the graph below models 1 through 12 had the highest AUCs in 
 ![Penalized_Top_Todels](top_models.PNG)
 
 
+Below is a graph of the AUC values of the penalized logistic regression
+
+![lr_auc](lr_plot.png)
+
+
 ### Finally, provide your ROC plots and interpret them. How effective is your penalized logistic regression model at predicting each of the five wealth outcomes.
 
 The model is very good at predicting wealth outcomes of 1 and 5. When it comes to predicting wealth outcomes of 2 and 4 it is pretty bad but still okay and there is much room for improvement. Finally the model is very bad at predicting wealth outcomes of 3.
