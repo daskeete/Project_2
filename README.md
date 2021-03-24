@@ -89,9 +89,28 @@ At first glance it seems that the accuracy for the logistic regression is much b
 
 The boosted trees model achieved an AUC of 0.748843, which means it did better than random chance as well as all the other models. However 0.74 is still very far from 1 so room for improvement is there.
 
-![rf_accur](RFACCUR.PNG)
-![rfroc](RFROC.png)
-![rfprob](RFPROBS.png)
+### Results for boosted trees wealth class 5 and ROC
+![5_accur](5RFACCUR.PNG)
+![5roc](5RFROC.png)
+
+### Results for boosted trees wealth class 4 and ROC
+![4_accur](4RFACCUR.PNG)
+![4roc](4RFROC.png)
+
+
+### Results for boosted trees wealth class 3 and ROC
+![3_accur](3RFACCUR.PNG)
+![3roc](3RFROC.png)
+
+
+### Results for boosted trees wealth class 2 and ROC
+![2_accur](2RFACCUR.PNG)
+![2roc](2RFROC.png)
+
+
+### Results for boosted trees wealth class 1 and ROC
+![1_accur](1RFACCUR.PNG)
+![1roc](1RFROC.png)
 
 
 
@@ -104,5 +123,5 @@ The boosted trees model achieved an AUC of 0.748843, which means it did better t
 Going off of the AUC we see that the gradient boosting decision trees produced the best result with an AUC of 0.74 which is about 0.09 higher than the penalized logistic regression model.
 
 ### Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
-
+I think the predictive power of the models to predict the individual wealth outcomes ought to have been the same however 
 
