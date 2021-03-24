@@ -47,6 +47,8 @@ When compared to the penalized logistic regression, the performance of the two m
 
 ### Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
 
+From this plot we can tell that education is the most important feature.
+
 ![importance](last_rf_fit.png)
 
 
@@ -87,16 +89,15 @@ At first glance it seems that the accuracy for the logistic regression is much b
 
 ![rf_accur](RFACCUR.PNG)
 ![rfroc](RFROC.png)
+![rfprob](RFPROBS.png)
 
 
 
 
 
 
-### Analyze all four models. 
 
-
-### According to the evaluation metrics, which model produced the best results? 
-
+### Analyze all four models. According to the evaluation metrics, which model produced the best results? 
+Going off of the AUC we see that the gradient boosting decision trees produced the best result with an AUC of 0.74 which is about 0.09 higher than the penalized logistic regression model.
 
 ### Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
