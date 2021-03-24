@@ -51,7 +51,6 @@ When compared to the penalized logistic regression, the performance of the two m
 
 ### Results for logistic regression wealth class 5 and ROC
 ![5tensor_flow_accuracy](tensor_flow_logistic.PNG)
-
 ![5tensorflow_logistic_roc](tensorflow_logistic_roc1.png)
 
 ### Results for logistic regression wealth class 4 and ROC
