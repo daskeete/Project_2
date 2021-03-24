@@ -50,7 +50,7 @@ When compared to the penalized logistic regression, the performance of the two m
 ### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. Apply the linear classifier to the feature columns and determine the accuracy, AUC and other evaluative metrics towards each of the different wealth outcomes. Then continue with your linear classifier adding the derived feature columns you have selected in order to extend capturing combinations of correlations (instead of learning on single model weights for each outcome). Again produce your ROC curves and interpret the results.
 
 
-At first glance it seems that the accuracy for the logistic regression is much better for predicting every wealth class when setting one wealth class equal to 3 others so that there are only 2 unique classes. It is hard to tell if the overall accuracy improved since the penalized logistic regression we first did only calculated the average AUC value across all 5 wealth outcomes. So to determine if the average accuracy improved by using this approach I calculated the average AUC across the individual wealth class results and it turns out that the total average AUC decreased which means that this approach failed to beat the penalized logstic regression. The average AUC here was 0.633337 compared to 0.65.
+At first glance it seems that the accuracy for the logistic regression is much better for predicting every wealth class when setting one wealth class equal to 3 others so that there are only 2 unique classes. It is hard to tell if the overall accuracy improved given that we now have 5 separate models with separate AUCs. So to determine if the average accuracy improved by using this approach I calculated the average AUC across the individual wealth class results and it turns out that the total average AUC decreased which means that this approach failed to beat the penalized logstic regression. The average AUC here was 0.633337 compared to 0.65.
 
 ### Results for logistic regression wealth class 5 and ROC
 ![5_accur](5ACCUR.PNG)
@@ -78,21 +78,14 @@ At first glance it seems that the accuracy for the logistic regression is much b
 
 
 
+### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
+
+![rf_accur](RFACCUR.PNG)
+![rfroc](RFROC.png)
 
 
 
 
-
-
-
-
-### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. 
-
-
-### Provide evaluative metrics including a measure of accuracy and AUC. 
-
-
-### Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
 
 
 ### Analyze all four models. 
