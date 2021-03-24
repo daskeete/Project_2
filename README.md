@@ -53,7 +53,7 @@ When compared to the penalized logistic regression, the performance of the two m
 
 
 
-![tensorflow_logistic_roc](tensorflow_logistic_roc.png)
+![tensorflow_logistic_roc](tensorflow_logistic_roc1.png)
 
 
 ### Again produce your ROC curves and interpret the results.
