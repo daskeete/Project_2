@@ -18,7 +18,7 @@ I found this odd because wealth class 3 possess the most observations compared t
 
 
 ### Using the R script provided, set up your random forest model and produce the AUC - ROC values for the randomly selected predictors, and the minimal node size, again with wealth as the target. How did your random forest model fare when compared to the penalized logistic regression? Provide your ROC plots and interpret them.
-Graph of node sizes.
+Chart of min_n values.
 
 ![RF_top](rf_res_top_models1.PNG)
 
