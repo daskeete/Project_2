@@ -40,8 +40,8 @@ I found this odd because wealth class 3 possess the most observations compared t
 
 ![RF_AUC](rf_auc.png)
 
-
 When compared to the penalized logistic regression, the performance of the two models is very similar. Once again the model is very good at predicting wealth outcomes of 1 and 5 and marginally acceptable when predicting wealth outcomes of 2 and 4. The ROC for wealth outcome 3 was slightly better in the random forest model.
+
 
 ### Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
 
