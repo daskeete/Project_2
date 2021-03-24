@@ -1,5 +1,6 @@
 # Project Cameroon
 
+# Model 1
 
 ### Using the R script provided, split and sample your DHS persons data and evaluate the AUC - ROC values you produce. Which "top_model" performed the best (had the largest AUC)? Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? Provide justification for your selected penalty value? 
 
@@ -21,6 +22,7 @@ I found this odd because wealth class 3 possess the most observations compared t
 ![LR_AUC](lr_auc.png)
 
 
+# Model 2
 
 ### Using the R script provided, set up your random forest model and produce the AUC - ROC values for the randomly selected predictors, and the minimal node size, again with wealth as the target. How did your random forest model fare when compared to the penalized logistic regression? Provide your ROC plots and interpret them.
 
@@ -46,6 +48,9 @@ When compared to the penalized logistic regression, the performance of the two m
 ### Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
 
 ![importance](last_rf_fit.png)
+
+
+# Model 3 
 
 ### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. Apply the linear classifier to the feature columns and determine the accuracy, AUC and other evaluative metrics towards each of the different wealth outcomes. Then continue with your linear classifier adding the derived feature columns you have selected in order to extend capturing combinations of correlations (instead of learning on single model weights for each outcome). Again produce your ROC curves and interpret the results.
 
@@ -76,7 +81,7 @@ At first glance it seems that the accuracy for the logistic regression is much b
 ![1roc](1ROC.png)
 
 
-
+# Model 4
 
 ### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
 
