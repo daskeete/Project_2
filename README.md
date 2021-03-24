@@ -53,8 +53,8 @@ When compared to the penalized logistic regression, the performance of the two m
 The accuracy for the logistic regression is much better for predicting every wealth class when setting one wealth class to 3 others so that there are only 2 unique classes. The most notable increase in accuracy is for wealth class 3. 
 
 ### Results for logistic regression wealth class 5 and ROC
-![5tensor_flow_accuracy](tensor_flow_logistic.PNG)
-![5tensorflow_logistic_roc](tensorflow_logistic_roc1.png)
+![5_accur](5ACCUR.PNG)
+![5roc](5ROC.png)
 
 ### Results for logistic regression wealth class 4 and ROC
 ![4_accur](4ACCUR.PNG)
