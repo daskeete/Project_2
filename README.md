@@ -128,8 +128,8 @@ The boosted trees model achieved an AUC of 0.748843, which means it did better t
 
 ### Analyze all four models. According to the evaluation metrics, which model produced the best results? 
 
-Going off of the AUC we see that the gradient boosting decision trees produced the best result with an AUC of 0.74 which is about 0.09 higher than the penalized logistic regression model.
+When we tried to predict wealth outcomes individually by binarizing the wealth values for the boosted trees model, on average the models did better than the penalized logistic, random forest, and tensorflow logistic regression API models. The average AUC of the 5 boosted trees models is 0.660505. Unfortunately, while this is the best AUC average this is not much bette rthan the other models so we failed to increase the model accuracy by a significant amount using these different approaches.
 
 ### Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
-I think the predictive power of the models to predict the individual wealth outcomes ought to have been the same however 
+I think the predictive power of the models to predict the individual wealth outcomes ought to have been the same and that is what was observed ultimately. I believe this is so because there is not enough information for people of wealth classes 2, 4, and especially 3 for the models to be able to distinguish them enough from the extremes of classes 1 & 5(poorest and wealthiest). In simple terms, the used features are too similar to capture the variance between these classes that are necessary to predict accurate outcomes.
 
