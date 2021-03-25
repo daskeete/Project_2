@@ -123,8 +123,9 @@ The boosted trees models were very similar to the previous models. The range for
 ### Analyze all four models. According to the evaluation metrics, which model produced the best results? 
 
 When we tried to predict wealth outcomes individually by binarizing the wealth values for the boosted trees model, on average the models did better than the penalized logistic, random forest, and tensorflow logistic regression API models. The average AUC of the 5 boosted trees models is 0.660505. Unfortunately, while this is the best AUC average this is not much better than the other models so we failed to increase the model accuracy by a significant amount using these different approaches.
+Analyzing individual binarized wealth class predictor performance between the boosted trees and python logistic regression models revealed that the performance was greater between individual models for the boosted trees in comparison to the python logistic regression; but again i chose to focus on average improvement across models 1 through 4.
 
 ### Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
 I think the predictive power of the models to predict the individual wealth outcomes ought to have been the same and that is what was observed ultimately. I believe this is so because there is not enough information for people of wealth classes 2, 4, and especially 3 for the models to be able to distinguish them enough from the extremes of classes 1 & 5(poorest and wealthiest). In simple terms, the used features are too similar to capture the variance between these classes that are necessary to predict accurate outcomes.
 
-In conclusion these models revealed that for this specific exercise there is no benefit to binarizing your target values and then trying to predict one vs all others.
+In conclusion when analyzing average performance these models revealed that for this specific exercise there is no benefit to binarizing your target values and then trying to predict one vs all others.
