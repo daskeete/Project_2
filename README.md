@@ -90,12 +90,6 @@ At first glance it seems that the accuracy for the logistic regression is much b
 The boosted trees model achieved an AUC of 0.748843, which means it did better than random chance as well as all the other models. However 0.74 is still very far from 1 so room for improvement is there.
 
 
-### Boosted trees model without binarized wealth values.
-
-![rf_accur](RFACCUR.PNG)
-![rfroc](RFROC.png)
-![rfprob](RFPROBS.png)
-
 ### Results for boosted trees wealth class 5 and ROC
 ![5_accur](5RFACCUR.PNG)
 ![5roc](5RFROC.png)
