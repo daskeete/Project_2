@@ -127,3 +127,4 @@ When we tried to predict wealth outcomes individually by binarizing the wealth v
 ### Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
 I think the predictive power of the models to predict the individual wealth outcomes ought to have been the same and that is what was observed ultimately. I believe this is so because there is not enough information for people of wealth classes 2, 4, and especially 3 for the models to be able to distinguish them enough from the extremes of classes 1 & 5(poorest and wealthiest). In simple terms, the used features are too similar to capture the variance between these classes that are necessary to predict accurate outcomes.
 
+In conclusion these models revealed that for this specific exercise there is no benefit to binarizing your target values and then trying to predict one vs all others.
