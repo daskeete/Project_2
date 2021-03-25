@@ -92,27 +92,27 @@ The boosted trees model achieved an AUC of 0.748843, which means it did better t
 ### Results for boosted trees wealth class 5 and ROC
 ![5_accur](5RFACCUR.PNG)
 ![5roc](5RFROC.png)
-![5prob](5RFPROB.png)
+![5prob](5RFPROB.PNG)
 
 ### Results for boosted trees wealth class 4 and ROC
 ![4_accur](4RFACCUR.PNG)
 ![4roc](4RFROC.png)
-![4prob](4RFPROB.png)
+![4prob](4RFPROB.PNG)
 
 ### Results for boosted trees wealth class 3 and ROC
 ![3_accur](3RFACCUR.PNG)
 ![3roc](3RFROC.png)
-![3prob](3RFPROB.png)
+![3prob](3RFPROB.PNG)
 
 ### Results for boosted trees wealth class 2 and ROC
 ![2_accur](2RFACCUR.PNG)
 ![2roc](2RFROC.png)
-![2prob](2RFPROB.png)
+![2prob](2RFPROB.PNG)
 
 ### Results for boosted trees wealth class 1 and ROC
 ![1_accur](1RFACCUR.PNG)
 ![1roc](1RFROC.png)
-![1prob](1RFPROB.png)
+![1prob](1RFPROB.PNG)
 
 
 
